@@ -1,0 +1,10 @@
+module stri();
+  string aditya;
+  initial 
+    begin
+      aditya = "aditya is from bihar";
+      $display("%s", aditya);
+      aditya = "aditya stydied in pine training academy" ;
+       $display("%s", aditya);
+    end 
+endmodule 
