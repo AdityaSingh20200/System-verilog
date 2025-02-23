@@ -1,0 +1,10 @@
+module log();
+  logic a;
+  logic [3:0]b;
+  initial 
+    begin
+      $display("the default value is %b" ,a);
+      $display("the default value is %b" ,b);
+      
+    end 
+endmodule 
