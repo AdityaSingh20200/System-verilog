@@ -1,0 +1,13 @@
+module m;
+  typedef string aditya;
+  typedef integer rohit ;
+  aditya  a;
+  rohit b;
+  initial 
+    begin
+      a = "aditya lives in india";
+      b = 50;
+      $display ("%s", a);
+      $display ("%b", b);
+    end 
+endmodule 
