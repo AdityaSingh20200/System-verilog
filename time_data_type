@@ -1,0 +1,8 @@
+module time1();
+  time i;
+  initial
+    begin
+      $display("the value of %t", i);
+      $display("the value of %0t", i);
+    end
+endmodule 
