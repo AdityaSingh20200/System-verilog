@@ -1,0 +1,7 @@
+module m;
+  parameter size = 16;
+  initial 
+    begin
+      $display ("the value of size is %0d", size);
+    end 
+endmodule
